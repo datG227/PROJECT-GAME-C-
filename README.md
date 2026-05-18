@@ -1,6 +1,6 @@
 # 🎮 Sokoban – C++ / raylib
 
-Trò chơi **Sokoban** cổ điển được xây dựng bằng **C++** và thư viện đồ họa **raylib**, chạy trên Windows 64-bit.
+Trò chơi **Sokoban**(Xếp thùng) cổ điển được xây dựng bằng **C++** và thư viện đồ họa **raylib**, chạy trên Windows 64-bit.
 
 ---
 

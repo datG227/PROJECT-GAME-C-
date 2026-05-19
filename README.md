@@ -4,6 +4,14 @@ Trò chơi **Sokoban** cổ điển được xây dựng bằng **C++** và thư
 
 ---
 
+## 📋 Mô tả
+
+Người chơi điều khiển nhân vật đẩy các hộp (`$`) vào đúng vị trí mục tiêu (`.`).  
+Khi tất cả hộp đã nằm trên đích, màn chơi kết thúc và người chơi tiến sang màn tiếp theo.  
+Trò chơi gồm **6 màn** với độ khó tăng dần.
+
+---
+
 ## ⚙️ Ký hiệu bản đồ (map format)
 
 | Ký tự | Ý nghĩa |
@@ -15,14 +23,6 @@ Trò chơi **Sokoban** cổ điển được xây dựng bằng **C++** và thư
 | `.` | Đích (target) |
 | `*` | Hộp đang ở trên đích |
 | `+` | Người chơi đang ở trên đích |
-
----
-
-## 📋 Mô tả
-
-Người chơi điều khiển nhân vật đẩy các hộp (`$`) vào đúng vị trí mục tiêu (`.`).  
-Khi tất cả hộp đã nằm trên đích, màn chơi kết thúc và người chơi tiến sang màn tiếp theo.  
-Trò chơi gồm **6 màn** với độ khó tăng dần.
 
 ---
 

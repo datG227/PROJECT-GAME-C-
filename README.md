@@ -1,24 +1,14 @@
 # 🎮 Sokoban – C++ / raylib
 
-Trò chơi **Sokoban**(Xếp thùng) cổ điển được xây dựng bằng **C++** và thư viện đồ họa **raylib**, chạy trên Windows 64-bit.
-
----
-
-## ⚙️ Ký hiệu bản đồ (map format)
-
-| Ký tự | Ý nghĩa |
-|-------|---------|
-| `#` | Tường (wall) |
-| `R` | Đá (rock – không thể đẩy) |
-| `@` | Vị trí ban đầu của người chơi |
-| `$` | Hộp (box) |
-| `.` | Đích (target) |
-| `*` | Hộp đang ở trên đích |
-| `+` | Người chơi đang ở trên đích |
+Trò chơi **Sokoban** cổ điển được xây dựng bằng **C++** và thư viện đồ họa **raylib**, chạy trên Windows 64-bit.
 
 ---
 
 ## 📋 Mô tả
+
+Người chơi điều khiển nhân vật đẩy các hộp (`$`) vào đúng vị trí đích (`.`).  
+Khi tất cả hộp đã nằm trên đích, màn chơi kết thúc và người chơi tiến sang màn tiếp theo.  
+Trò chơi gồm **6 màn** với độ khó tăng dần.
 
 ---
 
@@ -78,6 +68,22 @@ DOAN C++/
 | 5 | Fortress | 30 × 12 | 5 |
 | 6 | The Labyrinth | 34 × 13 | 6 |
 
+---
+
+## ⚙️ Ký hiệu bản đồ (map format)
+
+| Ký tự | Ý nghĩa |
+|-------|---------|
+| `#` | Tường (wall) |
+| `R` | Đá (rock – không thể đẩy) |
+| `@` | Vị trí ban đầu của người chơi |
+| `$` | Hộp (box) |
+| `.` | Đích (target) |
+| `*` | Hộp đang ở trên đích |
+| `+` | Người chơi đang ở trên đích |
+
+---
+
 ## 🔧 Yêu cầu & Build
 
 ### Yêu cầu
@@ -126,8 +132,3 @@ main.cpp
 - Thông tin người chơi: `playerX/Y`, `facing`, `moves`, `won`
 
 ---
-
-## 👤 Tác giả
-
-Đồ án môn học – C++ 
-Năm học: 2025 – 2026

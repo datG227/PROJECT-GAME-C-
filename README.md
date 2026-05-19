@@ -4,8 +4,6 @@ Trò chơi **Sokoban**(Xếp thùng) cổ điển được xây dựng bằng **
 
 ---
 
-## 📋 Mô tả
-
 ## ⚙️ Ký hiệu bản đồ (map format)
 
 | Ký tự | Ý nghĩa |
@@ -18,9 +16,9 @@ Trò chơi **Sokoban**(Xếp thùng) cổ điển được xây dựng bằng **
 | `*` | Hộp đang ở trên đích |
 | `+` | Người chơi đang ở trên đích |
 
-Người chơi điều khiển nhân vật đẩy các hộp (`$`) vào đúng vị trí đích target (`.`).  
-Khi tất cả hộp đã nằm trên đích, màn chơi kết thúc và người chơi tiến sang màn tiếp theo.  
-Trò chơi gồm **6 màn** với độ khó tăng dần.
+---
+
+## 📋 Mô tả
 
 ---
 
